@@ -482,7 +482,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "645305bf-d0bd-4465-8e64-f4354215fe3c")
@@ -494,7 +494,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "3bc10f5c-851a-498b-9883-e75f319ed9cf")
 			(effects
@@ -659,7 +659,7 @@
 			(uuid "02838667-b32d-4e5f-8aa7-44b6c7386539")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "41e6d17d-8669-4921-9414-6f920f8e8348")
 			(effects
@@ -930,7 +930,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ebedf05a-ac95-4b30-8176-01232e699664")
@@ -942,7 +942,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "b30dee85-4d60-4d2b-8ad1-3ed5aa090772")
 			(effects
@@ -1094,7 +1094,7 @@
 			(uuid "92cfd00c-1a9b-4582-aea5-0a5d1a266ac7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "167e00a4-1e61-4dd5-bf83-b536ad183de1")
 			(effects
@@ -4256,7 +4256,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at -3.5 0 270)
+			(at -3.5 0 -90)
 			(layer "F.SilkS")
 			(uuid "dfb3b25d-fbde-45cf-b3b1-e03451b94ce3")
 			(effects
@@ -4267,7 +4267,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "b799c818-99e4-466e-b7d4-679303f5b2af")
 			(effects
@@ -4432,7 +4432,7 @@
 			(uuid "7679abc6-acc4-43c7-a752-6e9d1dae6074")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f113aa43-40ed-45cf-93c5-3cd61b0b3c19")
 			(effects
@@ -6316,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "16MHz"
 			(at 0 2.45 180)
 			(layer "F.Fab")
 			(uuid "8289b348-f4c4-4eb1-b113-14b8a14b5430")
@@ -8861,7 +8861,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D8"
-			(at -3.5 0 270)
+			(at -3.5 0 -90)
 			(layer "F.SilkS")
 			(uuid "b6b8b338-15a2-41ec-ab8f-15af483e0d98")
 			(effects
@@ -8872,7 +8872,7 @@
 			)
 		)
 		(property "Value" "orange 5mA"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "6e91dd31-d1f8-41ac-a2de-a7282b0c6f6e")
 			(effects
@@ -9057,7 +9057,7 @@
 			(uuid "edd38270-12e5-4d12-9819-333c5d32e340")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "45e562f5-3ecc-42a2-b05a-2d08f3910689")
 			(effects
@@ -9678,7 +9678,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 3.181981 -0.353553 225)
+			(at 3.181981 -0.353553 -135)
 			(layer "F.SilkS")
 			(uuid "ff0a1e49-2426-435b-a65b-53091da7eaff")
 			(effects
@@ -9689,7 +9689,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 225)
+			(at 0 1.43 -135)
 			(layer "F.Fab")
 			(uuid "d278b998-bd55-4e98-a82e-59a84acf16b5")
 			(effects
@@ -9854,7 +9854,7 @@
 			(uuid "5bcfbc85-8049-45c9-b1a0-ac42d330dc24")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 225)
+			(at 0 0 -135)
 			(layer "F.Fab")
 			(uuid "2026d2e8-c764-4129-a03e-21898e89a9e2")
 			(effects
@@ -9901,7 +9901,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
-			(at -3 0 270)
+			(at -3 0 -90)
 			(layer "F.SilkS")
 			(uuid "75049975-ea9c-4607-a456-f466efd8990f")
 			(effects
@@ -9912,7 +9912,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "4a670ce6-14ce-44a2-ad32-d17fecd78c1c")
 			(effects
@@ -10077,7 +10077,7 @@
 			(uuid "02911d77-f8cc-40d2-8f7d-5f91f861a8ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f77cc59f-89df-4276-86a3-77762f82e135")
 			(effects
@@ -10124,7 +10124,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D6"
-			(at -3.5 0 270)
+			(at -3.5 0 -90)
 			(layer "F.SilkS")
 			(uuid "7499bdf3-69b4-45c3-91be-29f4218ef322")
 			(effects
@@ -10135,7 +10135,7 @@
 			)
 		)
 		(property "Value" "red 5mA"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "ded2d159-0d90-45a7-9081-1a775354d043")
 			(effects
@@ -10320,7 +10320,7 @@
 			(uuid "8ab0e793-ccee-44f4-9575-b9768bf201b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "7f6362e8-8e22-47ef-bb3c-d7ac653b39ac")
 			(effects
@@ -10625,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "16MHz"
 			(at 0 2.45 180)
 			(layer "F.Fab")
 			(uuid "0d861c4b-eb2a-4152-90fa-3f650e5934a1")
@@ -13908,7 +13908,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at -3 0 270)
+			(at -3 0 -90)
 			(layer "F.SilkS")
 			(uuid "58fc4cdc-a024-4fa0-97ea-182c1fc35772")
 			(effects
@@ -13919,7 +13919,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "be772d6c-fe9f-4a05-bee1-c5f1fc881ae9")
 			(effects
@@ -14084,7 +14084,7 @@
 			(uuid "ab1d700b-1be2-4ab8-8cb2-ace64194ae6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "8828cc8f-d87a-4fb1-b07f-221fd2ac8e2e")
 			(effects
@@ -14623,7 +14623,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D7"
-			(at -3.5 0 270)
+			(at -3.5 0 -90)
 			(layer "F.SilkS")
 			(uuid "fdef1622-4d02-43c4-9361-0fbe2c9921ce")
 			(effects
@@ -14634,7 +14634,7 @@
 			)
 		)
 		(property "Value" "green 5mA"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "602570a9-9422-4c8b-a037-4654929bff21")
 			(effects
@@ -14819,7 +14819,7 @@
 			(uuid "e5e7cf76-3e54-4778-8b93-2648519a2f24")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b29ab74c-4311-4836-aaa4-78fd58cbb0e1")
 			(effects
@@ -16625,7 +16625,7 @@
 		(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
 		(tags "tactile switch Wurth Wuerth")
 		(property "Reference" "Reset1"
-			(at 0.15 -2.6 270)
+			(at 0.15 -2.6 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "147bc052-ff59-4fab-a7b4-2c69c844c3da")
@@ -16637,7 +16637,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 0 2.55 270)
+			(at 0 2.55 -90)
 			(layer "F.Fab")
 			(uuid "cd9967a4-9656-41e4-a2d6-2a819e8cd17d")
 			(effects
@@ -16903,7 +16903,7 @@
 			(uuid "95ed75d7-cecd-4f83-b14d-30cf62baf711")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.05 0 270)
+			(at 0.05 0 -90)
 			(layer "F.Fab")
 			(uuid "ad757672-46c0-45eb-b68b-a39fa4280d4c")
 			(effects
@@ -17213,7 +17213,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 1.414214 315)
+			(at 0 1.414214 -45)
 			(layer "F.SilkS")
 			(uuid "0e940ced-809e-4c06-a389-06dedbcdab97")
 			(effects
@@ -17224,7 +17224,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 315)
+			(at 0 1.43 -45)
 			(layer "F.Fab")
 			(uuid "89366450-3136-4687-a3b1-74ca21b8513e")
 			(effects
@@ -17389,7 +17389,7 @@
 			(uuid "45a1a253-f68d-488a-8fd1-f4cc2c84cd3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 315)
+			(at 0 0 -45)
 			(layer "F.Fab")
 			(uuid "0297dd1e-02d9-42ff-90d5-ef7984adf6d8")
 			(effects

@@ -684,7 +684,6 @@
 					(alternate "" input line)
 					(alternate "A0" bidirectional line)
 					(alternate "D24" bidirectional line)
-					(alternate "" input line)
 				)
 				(pin passive line
 					(at 0 50.8 270)
@@ -8249,7 +8248,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "16MHz"
 			(at 50.038 101.854 90)
 			(effects
 				(font
@@ -9269,7 +9268,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "16MHz"
 			(at 165.1 129.032 90)
 			(effects
 				(font
