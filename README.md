@@ -23,8 +23,7 @@ PCB and Case for the Arduino JK-BMS To Pylontech-CAN converter for Deye Inverter
 - RJ45 connector Amphenol 54602-x08 Horizontal.
 - Designed with KiCad 8.
 
-
-##[Files to print your own case](JK-BMS-CAN_Case/)
+[Files to print your own case](JK-BMS-CAN_Case/)
 
 ## Pictures
 
