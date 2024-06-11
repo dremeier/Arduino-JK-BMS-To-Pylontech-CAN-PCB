@@ -11,6 +11,10 @@ PCB and Case for the Arduino JK-BMS To Pylontech-CAN converter for Deye Inverter
   
 ## Arduino Firmware by Armin: https://github.com/ArminJo/JK-BMSToPylontechCAN 
 
+#### If you find this program useful, please give it a star.
+
+&#x1F30E; [Google Translate](https://translate.google.com/translate?sl=en&u=https://github.com/dremeier/Arduino-JK-BMS-To-Pylontech-CAN-PCB)
+
 # Features 
 - buck converter for up to 65 Volt to 5V 
 - RS232-stream from the BMS translate from 3,3V to 5V and are galvanic seperated 
