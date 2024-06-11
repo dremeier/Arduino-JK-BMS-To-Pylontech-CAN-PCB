@@ -28,7 +28,8 @@ PCB and Case for the Arduino JK-BMS To Pylontech-CAN converter for Deye Inverter
 ## Pictures
 
 ### PCB Layout
-![Alt text](/PICs/BMS-CAN_PCB_top_v0.1.png )
+![Alt text](/PICs/BMS-CAN_PCB_top_v1.1.png )
+![Alt text](/PICs/BMS-CAN_PCB_bot_v1.1.png )
 
 ### Aufbau im Gehäuse
 ![Alt text](/PICs/IMG_6275.JPG )
