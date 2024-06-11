@@ -1,11 +1,11 @@
 <div align = center>
-Arduino-JK-BMS-To-Pylontech-CAN-PCB
-PCB and Case for the Arduino JK-BMS To Pylontech CAN converter
+# [Arduino JK-BMS to Pylontech-CAN PCB](https://github.com/dremeier/Arduino-JK-BMS-To-Pylontech-CAN-PCB) 
+PCB and Case for the Arduino JK-BMS To Pylontech-CAN converter for Deye Inverter
 <br/>
   
 ![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=dremeier_Arduino-JK-BMS-To-Pylontech-CAN-PCB) 
 <br/>
-
+<div align = left>
 ## Arduino Firmware by Armin: https://github.com/ArminJo/JK-BMSToPylontechCAN 
 
 #### PCB Layout:
