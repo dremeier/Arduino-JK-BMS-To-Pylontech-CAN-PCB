@@ -930,21 +930,21 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "Conn_01x05_Pin"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -970,7 +970,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1005,7 +1005,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
@@ -1045,6 +1045,18 @@
 				(polyline
 					(pts
 						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -1098,8 +1110,19 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1117,7 +1140,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1135,7 +1158,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1153,7 +1176,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1163,6 +1186,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4239,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 35.56) (xy 36.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1780a4ad-22ea-4b87-8acf-4f815a9b3dbe")
+	)
+	(wire
+		(pts
 			(xy 186.69 91.44) (xy 186.69 92.71)
 		)
 		(stroke
@@ -4279,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 35.56) (xy 36.83 35.56)
+			(xy 33.02 38.1) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 35.56) (xy 36.83 39.37)
+			(xy 36.83 38.1) (xy 36.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5549,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 35.56) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7924a76-0912-4202-b3b0-2c82e83a5c6d")
+	)
+	(wire
+		(pts
 			(xy 33.02 27.94) (xy 36.83 27.94)
 		)
 		(stroke
@@ -5586,6 +5647,25 @@
 			(type default)
 		)
 		(uuid "ff283744-2dbd-4977-9d7e-32e23ce15770")
+	)
+	(text_box "Arduno MightyCore Bootloader\nPinout \"Standard\nhttps://github.com/MCUdude/MightyCore"
+		(exclude_from_sim no)
+		(at 76.835 50.8 0)
+		(size 59.055 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "01a8177d-9bb0-40b7-ab63-fa242b8e1acb")
 	)
 	(text "LCD 2004 Modul"
 		(exclude_from_sim no)
@@ -5899,6 +5979,17 @@
 		)
 		(uuid "a462e113-b122-4732-9f7c-2ad264af2ff6")
 	)
+	(label "DTR"
+		(at 33.02 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa356870-0b88-489c-b1ed-603cd1172098")
+	)
 	(label "SCK"
 		(at 62.23 31.75 180)
 		(fields_autoplaced yes)
@@ -5909,6 +6000,17 @@
 			(justify right bottom)
 		)
 		(uuid "bbb76c15-f551-4788-b1c2-46a3b22c8436")
+	)
+	(label "~{RESET}"
+		(at 44.45 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfd8892c-d2ac-4c19-86dc-eac4328dabab")
 	)
 	(label "D2"
 		(at 90.17 116.84 0)
@@ -6599,7 +6701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a51102-581e-4013-8a5b-9e1a022724bc")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 99.06 109.7747 0)
 			(effects
 				(font
@@ -6660,7 +6762,7 @@
 		(instances
 			(project "JK-BMS_CAN"
 				(path "/d82ff742-6f7f-4a3b-883a-5922801ae813/49db526c-fdfa-49f8-940f-9cb274099387"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 240.03 38.1 0)
 		(mirror x)
 		(unit 1)
@@ -6935,7 +7037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -6964,6 +7066,9 @@
 		)
 		(pin "4"
 			(uuid "d6b80a90-816e-4002-bb82-fe3bcc66e6cb")
+		)
+		(pin "5"
+			(uuid "12c784da-606b-4143-9ad6-ea4c2a712323")
 		)
 		(instances
 			(project "JK-BMS_CAN"
@@ -7757,7 +7862,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 39.37 0)
+		(at 36.83 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7766,7 +7871,7 @@
 		(fields_autoplaced yes)
 		(uuid "5831d3ef-dbd1-446b-9567-e8260c52d6b2")
 		(property "Reference" "#PWR032"
-			(at 36.83 45.72 0)
+			(at 36.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 43.5031 0)
+			(at 36.83 46.0431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 39.37 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 39.37 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +7906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 39.37 0)
+			(at 36.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,6 +8120,82 @@
 			(project "JK-BMS_CAN"
 				(path "/d82ff742-6f7f-4a3b-883a-5922801ae813/49db526c-fdfa-49f8-940f-9cb274099387"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7129d0d5-9245-4397-973b-24c3e2b1fc3f")
+		(property "Reference" "C23"
+			(at 35.052 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 39.116 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eb0d701-f58f-434f-8690-ceb0e7ac93ef")
+		)
+		(pin "1"
+			(uuid "f6cd4a41-a1b4-41ec-a804-7135d3f7fdc8")
+		)
+		(instances
+			(project "JK-BMS_CAN"
+				(path "/d82ff742-6f7f-4a3b-883a-5922801ae813/49db526c-fdfa-49f8-940f-9cb274099387"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8793,8 +8974,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 27.94 30.48 0)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 27.94 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8818,8 +8999,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 27.94 30.48 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,7 +9009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 30.48 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,8 +9017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 27.94 30.48 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,6 +9037,9 @@
 		)
 		(pin "1"
 			(uuid "c5598093-22e9-4e9f-99ca-226b06478ae5")
+		)
+		(pin "5"
+			(uuid "ddb0d306-5a1a-45c1-ab6d-5eafddf99190")
 		)
 		(instances
 			(project "JK-BMS_CAN"
@@ -8876,7 +9060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3332aa-cade-4528-9c18-d41d58547b9f")
-		(property "Reference" "Reset1"
+		(property "Reference" "SW1"
 			(at 36.83 81.8345 0)
 			(effects
 				(font
@@ -8937,7 +9121,7 @@
 		(instances
 			(project "JK-BMS_CAN"
 				(path "/d82ff742-6f7f-4a3b-883a-5922801ae813/49db526c-fdfa-49f8-940f-9cb274099387"
-					(reference "Reset1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)

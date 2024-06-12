@@ -17,17 +17,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       0,
@@ -66,8 +66,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcffef_ffffffff",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",
@@ -80,31 +80,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "JK-BMS_CAN.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 3841,
-          "pos_y": 1,
-          "size_x": 3838,
-          "size_y": 2098
-        }
-      },
-      {
-        "name": "JK-BMS_CAN.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 3832,
-          "pos_y": 10,
-          "size_x": 3838,
-          "size_y": 2098
-        }
-      }
-    ]
+    "files": []
   }
 }
